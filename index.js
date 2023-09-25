@@ -29,7 +29,7 @@ console.log(allFoodItemsCategoryProtein(importedData));
 
 const allFoodItemsCategoryNut = (data) => {
     return data
-        .filter(item => item.category === 'Nut') 
+        .filter(item => item.category === 'Nuts') 
         .map(item => item.foodname); 
 }
 console.log(allFoodItemsCategoryNut(importedData));
